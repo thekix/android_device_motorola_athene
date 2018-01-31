@@ -113,8 +113,9 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.device@3.2-impl \
-    libbson \
-    libshims_camera \
+    camera.msm8952 \
+    libqomx_core \
+    libmm-qcamera \
     Camera2
 
 # Disable camera Treble path
