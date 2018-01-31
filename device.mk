@@ -118,10 +118,6 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     Camera2
 
-# Disable camera Treble path
-PRODUCT_PROPERTY_OVERRIDES += \
-    camera.disable_treble=true
- 
 # LineageActions
 PRODUCT_PACKAGES += \
     LineageActions
