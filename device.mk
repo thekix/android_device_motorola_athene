@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES +=  \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl-athene \
-    camera.device@3.2-impl \
     libbson \
     libshims_camera \
     Camera2
